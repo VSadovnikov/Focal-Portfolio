@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     min-width: 280px;
@@ -48,10 +48,8 @@ img {
     background: #343c4e;
     background-image: url("../img/bg/header-bg.png");
     background-repeat: no-repeat;
-
-
-    height: 100vh;
-
+    background-size: auto;
+    height: 90vh;
     color: #FFF;
     text-align: center;
 
@@ -63,6 +61,7 @@ img {
     position: relative;
     min-height: 400px;
     box-sizing: border-box;
+    width: auto;
 
 }
 
@@ -70,7 +69,7 @@ img {
     font-size: 56px;
     margin-bottom: 30px;
     font-family: 'Merriweather', serif;
-    margin-top: -50px;
+    margin-top: 100px;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     padding-top: 5px;
