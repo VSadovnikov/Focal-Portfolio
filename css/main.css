@@ -147,8 +147,20 @@ letter-spacing:2px;
 
 }
 
+/*About Me*/
+.thumbnail {
+    border: none;
+}
+
+.caption h3 {
+    margin-bottom: 35px;
+}
 
 
+.container .about-me-1 {
+
+
+}
 /* ........................................
 
 	PORTFOLIO
