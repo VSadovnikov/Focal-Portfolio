@@ -150,6 +150,7 @@ letter-spacing:2px;
 /*About Me*/
 .thumbnail {
     border: none;
+
 }
 
 .container-fluid {
@@ -165,6 +166,9 @@ letter-spacing:2px;
 .thumbnail.right {
     margin-left: 80px;
     width: 600px;
+    background-color: #f2f2f1;
+    border: none;
+    border-radius: 0;
 
 }
 
@@ -177,6 +181,7 @@ letter-spacing:2px;
     padding: 0;
     width: 100%;
     margin-bottom: 0;
+    background-color: #f2f2f1;
 }
 /* ........................................
 
@@ -389,6 +394,7 @@ p.footer__social-icons a:hover {
 
     .thumbnail.left img {
         text-align: center;
+
     }
 
 
@@ -396,6 +402,10 @@ p.footer__social-icons a:hover {
         width: auto;
         text-align: center;
         margin-left: 0;
+        background-color: #f2f2f1;
+        border: none;
+        border-radius: 0;
+        margin-bottom: 0;
 
 
 }
