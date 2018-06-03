@@ -163,14 +163,12 @@ letter-spacing:2px;
 }
 
 .thumbnail.right {
-    width: 50%;
-    margin-left: 70px;
-    background-color: #f2f2f1;
+    margin-left: 80px;
+    width: 600px;
 
 }
 
 .thumbnail.left {
-    width: 40%;
     padding: 0;
     margin-bottom: 0;
 }
@@ -179,7 +177,6 @@ letter-spacing:2px;
     padding: 0;
     width: 100%;
     margin-bottom: 0;
-    background-color: #f2f2f1;
 }
 /* ........................................
 
@@ -383,28 +380,31 @@ p.footer__social-icons a:hover {
     }
 
     .thumbnail.left {
-    width: 80%;
     margin-bottom: 0;
     margin-right: 0;
-    text-align: center;
-    background-color:white;
+    background-color: none;
+    padding-right: 0;
+
 }
+
+    .thumbnail.left img {
+        text-align: center;
+    }
 
 
     .thumbnail.right {
-        width: 80%;
+        width: auto;
         text-align: center;
-        margin-right: 0;
-        padding-right: 0;
+        margin-left: 0;
+
 
 }
 
     .container-fluid.about-me-2 {
-    padding: 0;
     width: 100%;
     margin-bottom: 0;
-        padding: 0;
-        text-align: center;
+    padding: 0;
+
 }
 
 
