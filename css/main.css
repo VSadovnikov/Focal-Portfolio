@@ -165,7 +165,7 @@ letter-spacing:2px;
 
 .thumbnail.right {
     margin-left: 80px;
-    width: 600px;
+    width: 800px;
     background-color: #f2f2f1;
     border: none;
     border-radius: 0;
@@ -183,6 +183,8 @@ letter-spacing:2px;
     margin-bottom: 0;
     background-color: #f2f2f1;
 }
+
+
 /* ........................................
 
 	PORTFOLIO
@@ -234,6 +236,153 @@ letter-spacing:2px;
 .portfolio-item__text p {
     margin-top: 0px;
     margin-bottom: 15px;
+}
+
+
+.main {
+
+margin-left: -10px;
+width: auto;
+float: left;
+
+}
+
+
+
+.main:last-child {
+
+  margin-top:30px;
+margin-left: -10px;
+
+}
+
+#curtain-4325{
+ overflow: hidden;
+margin: 0 auto 0px;
+  padding: 10px;
+
+
+}
+.text-holder{
+  overflow: hidden;
+  padding: 10px;
+  margin-top:-10px;
+;
+}
+
+.text-holder1{
+  overflow: hidden;
+  padding: 10px;
+  margin-top:-15px;
+    text-transform: uppercase;
+    font-weight:700;
+}
+
+.img-box {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.img-box img {
+  width:30px;
+  height:30px;
+}
+
+.img-box_gr img {
+    width: 31px;
+    height: 35px;
+}
+
+.img-box_gr {
+ float: left;
+  width: 31px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+
+
+.col-sm-6 col-md-5 col-lg-4 skills {
+    margin-left: 30px;
+}
+
+.skills-block {
+    margin-top: 30px;
+}
+
+.contact-btn {
+    display: block;
+    padding: 15px 60px;
+    border: 1px solid #2ecc71;
+    margin-top: 30px;
+}
+
+.contact-btn:hover {
+ background-color: green;
+    color: white;
+    text-decoration: underline;
+}
+
+.skills-bar {
+    float: right;
+    width: 500px;
+    margin-top: 30px;
+    margin-right: 0;
+}
+
+.progress-bar {
+    background-color: #2ecc71;
+    text-align: right;
+    padding-right: 5px;
+}
+
+
+.skills {
+    width: 600px;
+}
+
+
+.skills-text2 {
+    margin-top: 30px;
+}
+
+.resume {
+    background-color: #f2f2f1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+.resume-text {
+    margin-top: 30px;
+}
+
+.resume-block-text {
+    width: 100%;
+    padding-left:130px;
+    padding-right: 130px;
+
+}
+
+.resume-title {
+    font-weight: 700;
+}
+
+.resume-btn {
+    text-align: center;
+    padding: 15px 25px;
+    border: 1px solid #2ecc71;
+}
+
+
+.resume-btn:hover {
+    background-color: green;
+    color: white;
+    text-decoration: underline;
+
 }
 
 
@@ -456,6 +605,53 @@ p.footer__social-icons a:hover {
     .portfolio {
     padding-top: 40px;
     padding-bottom: 50px;
+}
+
+    .main {
+  width:100%;
+  margin-right: 10px;
+ margin-left: 0;
+}
+  .img-box img {
+  width:100%;
+  margin-right: 10px;
+      margin-left: 10px;
+
+}
+
+    .img-box_gr img {
+    width: 100%;
+    height: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+    #curtain-4325{
+ overflow: hidden;
+    }
+
+   .skills-block {
+    margin-top: 30px;
+}
+
+.skills-bar {
+    width: 100%;
+}
+
+    .contact-btn {
+    display: block;
+    padding: 10px 30px;
+    border: 1px solid #2ecc71;
+    width: 100%;
+}
+
+
+    .resume-block-text {
+    width: 100%;
+    padding-left:80px;
+    padding-right: 80px;
+
 }
 
 }
