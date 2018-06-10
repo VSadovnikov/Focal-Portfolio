@@ -312,6 +312,11 @@ margin: 0 auto 0px;
     margin-top: 30px;
 }
 
+.expirience-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .contact-btn {
     display: block;
     padding: 15px 60px;
@@ -385,8 +390,84 @@ margin: 0 auto 0px;
 
 }
 
+.grad_point {
+    font-weight: 600;
+    font-size: 10px;
+    padding: 5px;
+    background-color: #2ecc71;
+    color: white;
+    width: 50px;
+    text-align: center;
+}
 
+.grad_details {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+.grad_desc {
+    padding-top: 10px;
+}
+
+.education {
+    margin-top: 85px;
+}
+
+.line {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.author {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.italik_text {
+    font-style: italic;
+}
+
+.otstup{
+	margin-top:20px;
+}
+
+/* Fade Slider CSS */
+.carousel .item {
+  -webkit-transition: 0.7s ease-in-out opacity;
+  -moz-transition: 0.7s ease-in-out opacity;
+  -o-transition: 0.7s ease-in-out opacity;
+  transition: 0.7s ease-in-out opacity;
+  left: 0 !important;
+}
+.carousel .next.left,
+.carousel .prev.right {
+  opacity: 1;
+  z-index: 1;
+}
+.carousel .active.left,
+.carousel .active.right {
+  opacity: 1;
+  z-index: 2;
+}
+.carousel .carousel-control {
+  z-index: 1000;
+  outline:none;
+}
+
+.carousel .carousel-indicators {
+    padding-bottom: 10px:
+}
+
+
+.fa-angle-right, .fa-angle-left {
+    color: #2ecc71;
+}
+
+.left-control {
+    width: 50px;
+    height: 50px;
+}
 /* ........................................
+
 
 	FOOTER
 
@@ -637,7 +718,16 @@ p.footer__social-icons a:hover {
 
 .skills-bar {
     width: 100%;
+    text-align: center;
 }
+
+    .col-sm-6 col-md-5 col-lg-4 skills {
+    margin:0;
+}
+
+    .skills h3 {
+        text-align: center;
+    }
 
     .contact-btn {
     display: block;
@@ -653,6 +743,41 @@ p.footer__social-icons a:hover {
     padding-right: 80px;
 
 }
+
+    .caption h3 {
+        text-align: center;
+    }
+
+    .expirience-block {
+    margin-top: 30px;
+}
+
+    .grad_point {
+    font-weight: 600;
+    font-size: 10px;
+    padding: 5px;
+    background-color: #2ecc71;
+    color: white;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grad_details {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+.grad_desc {
+    padding-top: 10px;
+}
+
+.education {
+    margin-top: 15px;
+}
+
+
+
 
 }
 
