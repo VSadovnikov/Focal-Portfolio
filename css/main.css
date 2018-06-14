@@ -599,6 +599,26 @@ p.footer__social-icons a:hover {
 
 }
 
+
+.portfolio-block {
+	margin-top:50px;
+	text-align:center;
+}
+
+.portfolio-img-block {
+margin-top;30px;
+
+}
+
+.portfolio-text-block > p {
+ padding-top:50px;
+ padding-bottom:30px;
+}
+
+.portfolio-items {
+    margin-bottom: 15px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -646,9 +666,6 @@ p.footer__social-icons a:hover {
     padding: 0;
 
 }
-
-
-
 
     .col-4 {
         box-sizing: border-box;
@@ -777,9 +794,23 @@ p.footer__social-icons a:hover {
 }
 
 
+}
 
+@media (min-aspect-ratio:4/3){
+	
+.thumbnail.right {
+	content:4/3;
+    width: 800px;
+	margin-left:20px;
+    background-color: #f2f2f1;
+    border: none;
+    border-radius: 0;
 
 }
+
+}
+
+
 
 
 
