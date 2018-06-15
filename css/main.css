@@ -606,7 +606,8 @@ p.footer__social-icons a:hover {
 }
 
 .portfolio-img-block {
-margin-top;30px;
+margin-top:50px;
+    margin-bottom: 50px;
 
 }
 
@@ -791,6 +792,10 @@ margin-top;30px;
 
 .education {
     margin-top: 15px;
+}
+
+.portfolio-img-block {
+
 }
 
 
