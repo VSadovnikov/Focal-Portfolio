@@ -888,16 +888,16 @@ a {
 
 
     .thumbnail.right {
-        width: auto;
+        width: 100%;
         text-align: center;
-        margin-left: 0;
         background-color: #f2f2f1;
         border: none;
         border-radius: 0;
         margin-bottom: 0;
-
-
+        margin: 0 auto;
 }
+
+
 
     .container-fluid.about-me-2 {
     width: 100%;
@@ -905,6 +905,11 @@ a {
     padding: 0;
 
 }
+
+    .portfolio-img-block img{
+        width: 100%;
+        margin: 0 auto;
+    }
 
     .col-4 {
         box-sizing: border-box;
@@ -1043,6 +1048,228 @@ a {
 
     .form-group {
         text-align: center;
+    }
+
+    .ways{
+            margin: 0 auto;
+            width: 100%;
+            padding: 0;
+        }
+
+    @media (max-width: 1920px) and (orientation: landscape) {
+         .container {
+        width: 100%;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        text-align: center;
+    }
+
+    .thumbnail.left {
+    margin-bottom: 0;
+    margin-right: 0;
+    background-color: none;
+    padding-right: 0;
+    width: 100%;
+
+}
+
+    .thumbnail.left img {
+        text-align: center;
+        width: 100%;
+
+    }
+
+
+        .thumbnail.right > p {
+        text-align: center;
+
+
+    }
+    .thumbnail.right {
+        width: 100%;
+        background-color: #f2f2f1;
+        border: none;
+        border-radius: 0;
+        margin: 0 auto;
+
+
+}
+
+    .container-fluid.about-me-2 {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+
+}
+        .container-fluid.about-me-2 img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+}
+        .about-me {
+          width: 100%;
+            margin: 0 auto;
+        }
+
+        .thumbnail {
+            margin: 0 auto;
+        }
+
+        .about-me-2 {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .ways{
+            margin: 0 auto;
+            width: 100%;
+            padding: 0;
+        }
+
+    .col-4 {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .header {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .header__title {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+
+    .header_slogan {
+        font-size: 22px;
+        line-height: 38px;
+    }
+
+    .portfolio {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+    .main {
+  width:100%;
+  margin-right: 10px;
+ margin-left: 0;
+}
+  .img-box img {
+  width:100%;
+  margin-right: 10px;
+      margin-left: 10px;
+
+}
+
+    .img-box_gr img {
+    width: 100%;
+    height: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+    #curtain-4325{
+ overflow: hidden;
+    }
+
+   .skills-block {
+    margin-top: 30px;
+}
+
+.skills-bar {
+    width: 100%;
+    text-align: center;
+}
+
+    .col-sm-6 .col-md-5 .col-lg-4 .skills {
+    margin:0;
+}
+
+    .skills h3 {
+        text-align: center;
+    }
+
+    .contact-btn {
+    display: block;
+    padding: 10px 30px;
+    border: 1px solid #2ecc71;
+    width: 100%;
+}
+
+
+    .resume-block-text {
+    width: 100%;
+    padding-left:80px;
+    padding-right: 80px;
+
+}
+
+    .caption h3 {
+        text-align: center;
+    }
+
+    .expirience-block {
+    margin-top: 30px;
+}
+
+    .grad_point {
+    font-weight: 600;
+    font-size: 10px;
+    padding: 5px;
+    background-color: #2ecc71;
+    color: white;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grad_details {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+
+.grad_desc {
+    padding-top: 10px;
+}
+
+.education {
+    margin-top: 15px;
+}
+
+.footer-1-right form label {
+    text-align: center;
+
+    }
+
+    .btn btn-primary {
+        text-align: center;
+    }
+
+    .form-group {
+        text-align: center;
+    }
+        .portfolio-img-block row {
+            margin: 0 auto;
+        }
+
     }
 
 
