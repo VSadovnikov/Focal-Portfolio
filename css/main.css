@@ -901,8 +901,9 @@ a {
 
     .container-fluid.about-me-2 {
     width: 100%;
-    margin-bottom: 0;
+    margin: 0 auto;
     padding: 0;
+
 
 }
 
@@ -948,6 +949,11 @@ a {
     padding-top: 40px;
     padding-bottom: 50px;
 }
+
+    .about-me {
+        margin: 0 auto;
+        width: 100%;
+        }
 
     .main {
   width:100%;
@@ -1083,15 +1089,18 @@ a {
 
         .thumbnail.right > p {
         text-align: center;
+            width: 100%;
 
 
     }
     .thumbnail.right {
-        width: 100%;
         background-color: #f2f2f1;
         border: none;
         border-radius: 0;
         margin: 0 auto;
+        padding: 10px;
+        text-align: center;
+        width: 500px;
 
 
 }
@@ -1109,7 +1118,6 @@ a {
 
 }
         .about-me {
-          width: 100%;
             margin: 0 auto;
         }
 
@@ -1277,11 +1285,12 @@ a {
 	
 .thumbnail.right {
 	content:4/3;
-    width: 800px;
+    width: 95%;
 	margin-left:20px;
     background-color: #f2f2f1;
     border: none;
     border-radius: 0;
+    margin: 0 auto;
 
 }
 
