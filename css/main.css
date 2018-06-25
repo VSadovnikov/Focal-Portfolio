@@ -110,6 +110,7 @@ img {
 
 .navbar-default .navbar-nav > li > a{
     letter-spacing: 2px;
+    background-color: #252e30
 }
 
 span {
@@ -125,7 +126,8 @@ letter-spacing:2px;
 
 .navbar-default .navbar-nav > li > a:hover {
     text-decoration: underline;
-    color: white;
+    color: limegreen;
+
 }
 
 
@@ -137,7 +139,7 @@ letter-spacing:2px;
 }
 
 .navbar-default .navbar-brand .header-logo {
-    background-color: #4b5456;
+
     margin: -10px;
     padding-top: 10px;
     padding-bottom: 10px;
